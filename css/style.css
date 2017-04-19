@@ -1,0 +1,283 @@
+/*
+Colors:
+Purple:	rgb(109,47,157);	#6d2f9d
+Purple (light):	rgb(184,137,220);	#b889dc
+Purple (dark):	rgb(68,29,98);	#441d62
+Yellow:	rgb(255,255,77);	#ffff4d
+Yellow (light):	rgb(255,255,179);	#ffffb3
+Yellow (bright):	rgb(255,255,0);	#ffff00
+White:	rgb(255,255,255);	#ffffff
+Black:	rgb(0,0,0);	#000000
+*/
+
+body {
+    font-family: 'Roboto', 'Verdana', 'Arial', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    color: #6d2f9d;
+}
+
+p {
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 36px;
+    color: #441d62;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1, h2, h3, h4, h5 {font-weight: normal;}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+#header {
+    margin-bottom: 30px;
+}
+
+#header img {
+    max-width: 90%;
+    max-height:175px;
+}
+
+.side_left {
+    float: left;
+    text-align: center;
+    width: 250px;
+}
+
+.side_left img {
+    width: 100%;
+}
+
+.navbar {
+    margin-top: 50px;
+}
+
+.navbar ul {
+    padding: 0px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+    width: 160px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: rgb(109,47,157);
+    border-radius: 10px;
+}
+
+.navbar li {text-align: center;}
+
+.navbar li, a {
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #ffffb3;
+    color: rgb(109,47,157);
+    border: 2px solid rgb(109,47,157);
+    margin-bottom: 20px;
+    text-align:center;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.navbar a:active {
+    background-color: #441d62;
+    color: #ffffff;
+}
+
+#active {
+    background-color: white;
+    color: rgb(109,47,157);
+    border: 2px solid rgb(109,47,157);
+    margin-bottom: 20px;
+    text-align:center;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.main {
+    width: calc(90% - 300px);
+    position: absolute;
+    right: 5%;
+}
+
+td {
+    text-align: left;
+}
+
+td:nth-child(2) {
+    width: 24px;
+}
+
+table {
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+.p_justify p {
+    text-align: justify;
+}
+
+.review a {
+    color: white;
+    padding: 10px;
+    width: 120px;
+    margin: 30px 0px;
+    text-decoration: none;
+    background-color: rgb(109,47,157);
+    border: 3px solid rgb(184,137,220);
+    border-radius: 10px;
+}
+
+.review_block {
+    color: white;
+    background-color: rgb(109,47,157);
+    border: 3px solid rgb(184,137,220);
+    margin: 0px 0px 30px 0px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.form {
+    text-align: justify;
+}
+
+/*.hours, .map {
+    display: inline-block;
+    margin-top: 30px;
+}
+*/
+
+.hours {
+    float: left;
+    margin: 30px 30px 30px 0px;
+    width: 40%;
+}
+
+.hours td {vertical-align: top;}
+
+.map {
+    float: right;
+    margin: 30px 0px 30px 0px;
+    width: 55%;
+}
+
+iframe {width: 100%;}
+
+.clear {
+    clear: both;
+    height: 30px;
+}
+
+.button {
+    margin: auto;
+    background-color: #6d2f9d;
+    color: white;
+}
+
+fieldset {
+    margin-bottom: 30px;
+    border-color: #6d2f9d;
+    color: #6d2f9d;
+}
+
+.rating td {width: 110px;}
+
+.rating img {height: 17px;}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
+
+.review_block img {
+    width: 32px;
+    margin-right: 5px;
+}
+
+hr {
+    border-color: #b889dc;
+}
+
+.text {width: 250px;}
+
+legend {color: #441d62;}
+
+legend::first-letter {
+    font-size: 24px;
+}
+
+/*
+.photo_grid {
+    width: 31%;
+    margin-right: 3%;
+    float: left;
+    border: 1px solid #441d62;
+}
+
+.photo_grid_last {
+    margin: 0px;
+    width: 31%;
+    float: left;
+    border: 1px solid #441d62;
+}
+
+*/
+
+.menu_nav li {
+    display: inline-block;
+}
+
+.gallery {
+    float: left;
+    width: 45%;
+    height: 400px;
+    margin-right: 5%;
+}
+
+.gallery img {
+    max-width: 100%;
+    max-height: 90%;
+}

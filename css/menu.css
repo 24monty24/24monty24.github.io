@@ -1,0 +1,255 @@
+/*
+Colors:
+Purple:	rgb(109,47,157);	#6d2f9d
+Purple (light):	rgb(184,137,220);	#b889dc
+Purple (dark):	rgb(68,29,98);	#441d62
+Yellow:	rgb(255,255,77);	#ffff4d
+Yellow (light):	rgb(255,255,179);	#ffffb3
+Yellow (bright):	rgb(255,255,0);	#ffff00
+White:	rgb(255,255,255);	#ffffff
+Black:	rgb(0,0,0);	#000000
+*/
+
+body {
+    font-family: 'Roboto', 'Verdana', 'Arial', sans-serif;
+    background-image: url("../images/background.jpg");
+    background-attachment: fixed;
+    color: #6d2f9d;
+    }
+    
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 36px;
+    color: #441d62;
+    margin-bottom: 30px;
+}
+
+h2 {font-size: 30px;}
+
+h3 {font-size: 25px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0px;
+}
+
+h5 {
+    font-size: 17px;
+    font-style: italic;
+    margin: 0px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 17px;
+    text-indent: 20px;
+}
+
+.container {
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+
+#header {
+    /*
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    */
+    margin: auto;
+    text-align: center;
+    }
+
+#header img {
+    max-width: 90%;
+    max-height:175px;
+}
+
+.side_left {
+    width: 250px;
+    float: left;
+    top: 30px;
+}
+
+.side_left img {
+    width: 100%;
+}
+
+.navbar {
+    margin-top: 50px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+    width: 160px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: rgb(109,47,157);
+    border-radius: 10px;
+}
+
+.navbar li, a {
+    display: block;
+}
+
+.navbar a:hover, #active     {
+    background-color: white;
+    color: rgb(109,47,157);
+    border: 2px solid rgb(109,47,157);
+    margin-bottom: 20px;
+    text-align:center;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+.navbar a:active {
+    background-color: rgb(255,255,179);
+}
+
+.sub a {
+    font-size: smaller;
+    width: 120px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    background-color: white;
+    color: rgb(109,47,157);
+    border: 2px solid rgb(109,47,157);
+    text-align:center;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+/*.main {
+    width: 75%;
+    border: 1px solid aqua;
+    position: absolute;
+    float: right;
+}*/
+
+.main {
+    width: calc(90% - 300px);
+    position: absolute;
+    right: 5%;
+}
+
+.main a {
+    text-decoration: underline;
+    color: #6d2f9d;
+}
+
+.p_justify p {
+    text-align: justify;
+}
+
+.menu {
+    margin: auto;
+    margin-top: 100px;
+    text-align: left;
+    width: 90%;
+}
+
+.menu_nav {
+    margin: 0px;
+}
+
+.menu_nav ul {
+    margin: 0px;
+    padding: 0px;
+    height: 51px;
+}
+
+.menu_nav li {
+    display: inline-block;
+    width: 125px;
+    height: 51px;
+    margin-right: 3px;
+    padding: 0px;
+    text-align: center;
+}
+
+.menu_nav li:last-child {margin-right: 0px;}
+
+.menu_nav a {
+    padding: 12px 0px;
+    background-color: #6d2f9d;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu_item table {
+    margin: 0px 0px 0px 40px;
+    empty-cells: show;
+    display: table;
+    table-layout:fixed;
+    width: 100%;
+    
+}
+
+.menu_item td {
+    padding-left: 30px;
+    width: 150px;
+    vertical-align: bottom;
+    text-align: right;
+}
+
+.menu_item td:first-child {
+    width: 425px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.menu_item td:nth-child(2) {width: 125px;}
+
+.menu_item {margin: 0px 0px 0px 0px;}
+
+hr {clear: both;
+    width: 95%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #f3ebf9;
+}
+
+.menu img {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer {margin-top: 100px;}
+
+.footer h4 {text-align: center;}
+
+#cols {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 30px; /* Firefox */
+    column-gap: 30px;
+}
+
+#cols ul {
+    margin-top: 5px;
+    
+}
+
+/*
+/-webkit-column-rule: 4px outset #ff00ff;
+    -moz-column-rule: 4px outset #ff00ff;
+    column-rule: 4px outset #ff00ff;
+*/
