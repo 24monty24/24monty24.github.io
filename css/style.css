@@ -15,6 +15,7 @@ body {
     background-image: url("../images/background.jpg");
     background-attachment: fixed;
     color: #6d2f9d;
+    width: 100%;
 }
 
 p {

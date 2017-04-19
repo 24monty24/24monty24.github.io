@@ -15,6 +15,7 @@ body {
     background-image: url("../images/background.jpg");
     background-attachment: fixed;
     color: #6d2f9d;
+    width: 100%;
     }
     
 h1, h2, h3, h4, h5, h6 {
