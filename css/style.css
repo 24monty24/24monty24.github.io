@@ -153,9 +153,9 @@ table {
     margin-left: 1em;
 }
 
-.footer {
-    margin-top: 100px;
-}
+.footer {margin-top: 100px;}
+
+.footer h4 {text-align: center;}
 
 .p_justify p {
     text-align: justify;
